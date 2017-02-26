@@ -448,3 +448,62 @@ div.control-group .shortcut-recorder input[type=text] {
 #instant-invite-modal-advanced .form-actions {
     background-color: #36393E;
 } 
+input {
+    background-color: #36393E;
+}
+#instant-invite-modal .form-header header {
+    color: white
+}
+#instant-invite-modal .blurb {
+    color: lightgrey;
+}
+.clipboard-input-inner {
+    background: #36393E;
+    border: 1px solid #4A4F57;
+}
+.clipboard-input-inner button:first-of-type:before {
+    content: none
+}
+.modal-content .form-inner p {
+    color: white;
+}
+.small-popout-box {
+    background: #36393E;
+    border: 1px solid #4A4F57;
+}
+.option-popout .btn-item:hover {
+    color: white;
+}
+.radio-theme.light label {
+    display: none;
+}
+.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {
+    color: lightgrey;
+}
+.member-roles .member-role {
+    background-color: #61666C;;
+    border: 1px solid #4A4F57;
+    color: white;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member+.member {
+    border-top: 1px solid #4A4F57;
+}
+.guild-settings-modal .emoji-row .btn, .guild-settings-modal .member-buttons .btn {
+    background: #36393E;
+    border: 1px solid #61666C;
+}
+.guild-settings-modal .emoji-row .btn:hover,.guild-settings-modal .member-buttons .btn:hover {
+    background: #36393E
+}
+.guild-settings-modal .emoji-row .btn.btn-danger:hover,.guild-settings-modal .member-buttons .btn.btn-danger:hover {
+    background: #36393E
+}
+.instant-invites .instant-invites-list .instant-invite .member {
+    color: white;
+}
+.instant-invites .instant-invites-list .instant-invite .channel {
+    color: grey;
+}
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_supervisor_account_white_24px.svg");
+}
