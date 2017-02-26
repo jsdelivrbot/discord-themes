@@ -1,1 +1,454 @@
+.scroller-wrap .scroller::-webkit-scrollbar-thumb,.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: #6F8ECF;
+    background-clip: padding-box;
+    border: 2px solid #36393E;
+    border-radius: 7px
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: #36393E
+}
 
+.search-popout .option.selected:after {
+    background: linear-gradient(90deg,hsla(0,0%,95%,0) 0,#36393E 50%)
+}
+.search-popout .option:after {
+    background: #36393E;
+}
+.search-popout .option.selected {
+    background-color: #36393E;
+}
+.search-popout {
+    background-color: #36393E;
+    color: white;
+}
+.search-popout .search-option .filter {
+    color: white
+}
+.search-popout .option {
+    color: white;
+}
+.react-datepicker {
+    background-color: #36393E;
+    color: white;
+}
+.react-datepicker .react-datepicker__day.react-datepicker__day--selected {
+    color: white;
+}
+
+.react-datepicker .react-datepicker__header {
+    background-color: #36393E;
+    color: white;
+
+}
+.react-datepicker__day,.react-datepicker__day-name {
+    color: white;
+}
+.react-datepicker .react-datepicker__current-month {
+    color: white;
+}
+.react-datepicker .react-datepicker__day {
+    color: white;
+}
+.react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover,.react-datepicker .react-datepicker__day:hover {
+    color: white;
+    background-color: #333639
+}
+.react-datepicker .react-datepicker__day.react-datepicker__day--selected, .react-datepicker .react-datepicker__day {
+    background-color: #424549
+}
+.react-datepicker .react-datepicker__day.react-datepicker__day--disabled,.react-datepicker .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: #36393E;
+    color: grey;
+}
+.react-datepicker .react-datepicker__day--disabled,.react-datepicker .react-datepicker__day--outside-month {
+    background-color: #3A4048;
+    color: white
+}
+
+.keyboard-shortcuts-modal {
+    position: relative;
+    background-color: #36393E;
+}
+.keybind-shortcut span {
+    border: 1px solid #2E3136;
+    box-shadow: inset 0 -4px 0 #2E3136;
+    color: grey;
+}
+.keyboard-shortcuts-modal .modal-title {
+    color: white;
+}
+.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
+    color: grey;
+}
+.keybind-shortcut {
+    color: grey;
+}
+.keybind-shortcut span:active {
+    box-shadow: inset 0 -2px 0 #2E3136;
+    border: 1px solid #2E3136;
+    color: grey;
+}
+.keybind-shortcut span:active g {
+    fill: grey;
+}
+
+.keybind-shortcut.dim span {
+    color: grey;
+}
+
+.keybind-shortcut.dim span .bind-arrow g {
+    fill: grey;
+}
+
+.keybind-shortcut.dim span:active {
+    color: grey;
+}
+
+.keybind-shortcut.dim span:active .bind-arrow g {
+    fill: grey;
+}
+
+.user-popout .body {
+    background: #2E3136
+}
+.user-popout .footer {
+    background: #2E3136;
+    border-top: 1px solid #2E3136
+}
+.quick-message {
+    background: #2E3136;
+    border: 1px solid #2E3136
+}
+
+
+.emoji-picker {
+    background-color: #36393E;
+    border: 1px solid hsla(0,0%,75%,.2);
+}
+.emoji-picker .sticky-header {
+    background: #36393E;
+}
+.emoji-picker .categories .item:hover {
+    opacity: 30
+}
+.emoji-picker .categories {
+   color: white;
+}
+.emoji-picker .search-bar {
+    background: #36393E;
+    color: white;
+}
+.emoji-picker .header .search-bar {
+    color: white;
+}
+.search-bar.search-bar-light input::-webkit-input-placeholder {
+    color: lightgrey;
+}
+.emoji-picker .dimmer.visible {
+    pointer-events: auto;
+    background-color: hsla(217, 7%, 23%, 0.61)
+}
+.diversity-selector .popout {
+    background: #36393E;
+    border: 1px solid #36393E;
+}
+
+
+
+
+#user-profile-modal .header:after {
+    background-image: -webkit-linear-gradient(top,hsla(0,0%,100%,0),#2E3136);
+    background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),#2E3136);
+}
+#user-profile-modal .header {
+    background-color: #2E3136;
+    background-size: 0%;
+}
+#user-profile-modal .avatar-wrapper {
+    background-color: #2E3136
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+    color: white;
+    font-size: 18px
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    font-size: 16px;
+    color: lightgrey
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+    color: white;
+}
+#user-profile-modal .btn {
+    background-color: #2E3136;
+    color: #fff;
+}
+#user-profile-modal .btn:hover {
+    background-color: #2E3136
+}
+#user-profile-modal .scroller {
+    background: #2E3136;
+}
+#user-profile-modal .actions .btn:hover {
+    background: #2E3136
+}
+#user-profile-modal .tab-bar .tab-bar-item {
+    padding: 0 5px 20px;
+    color: white
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom-color: #2E3136;
+    color: white
+}
+#user-profile-modal .tab-bar-container {
+    background-color: #2E3136;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    border-bottom: 1px solid #2E3136;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border-radius: 3px;
+    border: 1px solid #2E3136;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: white;
+}
+#user-profile-modal .empty {
+    background: #2E3136;
+}
+#user-profile-modal .guilds .guild:hover {
+    background: #2E3136;
+    color: white
+}
+
+
+.status-picker {
+    background-color: #36393E;
+}
+.popout-menu .popout-menu-item:hover {
+    background-color: #36393E;
+    opacity: 2;
+    color: white
+}
+.popout-menu .popout-menu-separator {
+    border-bottom: 1px solid #36393E;
+}
+.popout-menu {
+    background: #36393E;
+    color: white;
+}
+
+
+.settings .settings-inner {
+    background-color: #36393E;
+    color: white;
+}
+
+.settings .settings-actions {
+    background-color: #36393E;
+    border-top: 1px solid #36393E;
+}
+.premium-settings .payment-subhead {
+    color: white;
+}
+.premium-settings .payment-method .payment-info .card-info .card-description {
+    color: white;
+}
+.premium-settings .payment-method .payment-info .card-info .card-details {
+    color: white;
+}
+.btn-stroked {
+    border: 1px solid white;
+    background-color: #36393E;
+    color: white;
+}
+.premium-settings .billing-history-list li.header-row {
+    color: lightgrey;
+}
+.premium-settings .billing-history-list li {
+    border-bottom: 1px solid #42454B;
+    color: white
+}
+.premium-settings .premium-header {
+    border-bottom: 1px solid #36393E;
+}
+.premium-settings.v1 .card-description strong,.theme-light .premium-settings .card-description strong {
+    color: lightgrey;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3 {
+    color: white;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner {
+    color: white;
+}
+.settings-connections-wrapper .authed-app {
+    background: #36393E;
+    border: 1px solid #36393E
+    
+}
+div.control-group .shortcut-recorder input[type=text] {
+    border: 1px solid #42454B;
+    text-shadow: 0 0 0 white;
+}
+.user-settings-modal-games {
+    border-top: 1px solid #36393E;
+    color: white;
+    background: #36393E;
+}
+.user-settings-modal-games .games-table .games-row .item-game .last-played {
+    color: white;
+}
+.user-settings-modal-games .games-table .games-row .item-game .game-input {
+    color: white;
+}
+.user-settings-modal-streamer-mode {
+    background: #36393E;
+}
+.change-log {
+    background: #36393E;
+}
+.markdown-modal .markdown-modal-footer {
+    border-top: 1px solid #36393E;
+    background-color: #36393E;
+}
+.guild-settings-modal-members {
+    background-color: #36393E;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member .member-username {
+    color: white;
+}
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    border-color: #484B52;
+    background-color: #36393E;
+    color: white;
+}
+.guild-settings-modal-emoji .emoji-row:hover .emoji-name {
+    border-color: #484B52;
+    background-color: #36393E;
+    color: white;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
+    color: white;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
+    color: lightgrey;
+}
+.webhooks .webhook {
+    background: #4A4F57;
+    border: 1px solid #4A4F57;
+}
+.avatar-uploader small {
+    color: white;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-name {
+    color: white;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-created-on {
+    color: lightgrey;
+}
+.form .btn-cancel {
+    background: #4A4F57;
+}
+.form .btn-clear {
+    border: 1px solid #36393E;
+    background: #4A4F57;
+    border-radius: 5px;
+    color: white;
+}
+.form .control-group input[type=email], .form .control-group input[type=number], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
+    border-bottom: 1px solid #4A4F57;
+    color: white;
+    background-color: #4A4F57;
+}
+#settings-roles .roles {
+    border-right: 1px solid #36393E;
+}
+#settings-roles .roles li.selected {
+    background: -webkit-linear-gradient(left,#2E3136,#2E3136);
+    background: linear-gradient(to right,#2E3136,#2E3136)
+}
+#settings-roles .roles li:hover {
+    background: -webkit-linear-gradient(left,#2E3136,#2E3136);
+    background: linear-gradient(90deg,#2E3136,#2E3136)
+}
+.tab-bar.SIDE {
+    overflow-y: hidden;
+}
+.form .control-group input[type=email],.form .control-group input[type=number],.form .control-group input[type=password],.form .control-group input[type=text],.form .control-group textarea {
+    border-bottom: 1px solid #36393E;
+    color: white;
+    background-color: #36393E
+
+}
+.Select-control {
+    background-color: #36393E;
+    border: 1px solid #36393E;
+    color: white;
+}
+.has-value>.Select-control>.Select-placeholder {
+    color: white;
+}
+.Select-menu-outer {
+    background-color: #36393E;
+}
+.is-open>.Select-control {
+    background: #36393E;
+}
+.form .Select-option.is-focused {
+    background: #36393E;
+    color: lightgrey
+}
+.form .Select-option {
+    color: white
+}
+.guild-settings-modal-members .guild-settings-modal-members-header .form .Select .Select-value {
+    color: white;
+}
+.search-bar.search-bar-light {
+    background-color: #36393E;
+}
+.form .form-header {
+    color: #7289da;
+    background: #36393E;
+    border-bottom: 1px solid #36393E;
+}
+.form .form-inner {
+    background-color: #36393E;
+}
+.form .form-actions {
+    background-color: #36393E;
+    border-top: 1px solid #36393E;
+}
+.form .btn-default {
+    background-color: #36393E;
+    border-bottom: 2px solid #7289da;
+}
+.checkbox .checkbox-inner+span {
+    color: white;
+}
+.need-help-modal .footer {
+    background-color: #36393E;
+    border-top: 1px solid #36393E;
+}
+.need-help-modal .header {
+    background-color: #36393E;
+    border-top: 1px solid #36393E;
+}
+.need-help-modal .header input[type=text] {
+    background-color: #36393E;
+    box-shadow: 0 2px 1px #36393E;
+}
+.need-help-modal .header input[type=text]:focus {
+    border-bottom: 1px solid #36393E;
+}
+.markdown-modal {
+    background-color: #36393E;
+}
+.mention {
+    color: white;
+    background: #7289da;
+}
+#instant-invite-modal .form-actions {
+    background-color: #36393E;
+}
+#instant-invite-modal-advanced .form-actions {
+    background-color: #36393E;
+}
