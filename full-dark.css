@@ -507,3 +507,88 @@ input {
 .guilds-wrapper .guilds .friends-icon {
     background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_supervisor_account_white_24px.svg");
 }
+.notification-settings-modal .notification-settings-modal-channel-settings-list {
+    box-shadow: 0 -1px #36393E;
+}
+.channel-notification-settings {
+    border-bottom: 1px solid #36393E;
+}
+.channel-notification-settings .content label {
+    color: #7289da;
+}
+.radio .radio-inner {
+    background: #36393E;
+    border: 1px solid #61666C;
+}
+.radio .radio-inner span:after {
+    background: #7289da;
+}
+/* THANKS TO AlexFlipnote FOR THE BUTTON */
+.radio-theme.light label {
+    display: none;
+}
+.theme-dark+div .radio-theme.dark:after {
+    content: "DARK MODE ENABLED"
+}
+.radio-theme.dark:after {
+    content: "ENABLE DARK MODE";
+    display: block;
+    color: #fff;
+    -webkit-transform: translate(-50%, -32px);
+    transform: translate(-50%, -32px);
+    position: absolute;
+    left: 50%;
+    font-weight: 800;
+    pointer-events: none
+}
+.tutorial-indicators+.theme-light:before {
+    content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go in settings > appearance.";
+    position: fixed;
+    display: block;
+    width: 400px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    background: #303030;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
+    border: 3px solid #f1c40f;
+    z-index: 2;
+}
+
+.radio-theme.dark.compact label, .radio-theme.dark label {
+    background: #e74c3c;
+}
+
+.radio-theme input[type=radio]:checked~label {
+    background: #4A4F57;
+}
+
+.radio-theme.dark.compact label,
+.radio-theme.dark label {
+    width: 506px;
+    height: 50px;
+    background: #7289DA;
+    border: 0px!important
+}
+
+.theme-light+span .radio-theme.dark.compact label,
+.theme-light+span .radio-theme.dark label {
+    background: #F04747;
+    box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
+}
+/**/
+.ui-button.brand.inverted {
+    color: white;
+    background-color: #4A4F57;
+    border: 2px solid #4A4F57;
+}
+.ui-button.brand.inverted:hover {
+    color: white;
+    background-color: #7289DA;
+    border: 2px solid #4A4F57;
+}
