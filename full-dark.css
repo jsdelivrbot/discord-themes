@@ -1,3 +1,13 @@
+/* FULL DARK THEME BY Archer#9341
+Q&A:
+May I reupload this and call it my own?
+No, and if you do I will report you for infringement.
+
+Do you support BetterDiscord?
+No, and I think its full garbage.
+
+*/
+
 .scroller-wrap .scroller::-webkit-scrollbar-thumb,.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-color: #6F8ECF;
     background-clip: padding-box;
@@ -42,6 +52,7 @@
 }
 .react-datepicker__day,.react-datepicker__day-name {
     color: white;
+
 }
 .react-datepicker .react-datepicker__current-month {
     color: white;
