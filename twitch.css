@@ -1,0 +1,39 @@
+/* TWITCH THEME */
+.account {
+    background: #201C2B;
+    border-top: 1px solid #201C2B;
+    border-right: 1px solid #2C2541
+}
+.account .btn {
+    background: #17141F;
+}
+.theme-dark .chat>.content,.theme-dark .friends-table,.theme-dark .messages-wrapper {
+    background-color: #272038
+}
+.guild-channels {
+    background-color: #252033;
+}
+.guild-channels .channel-text.selected {
+    background: -webkit-linear-gradient(left,#201C2B 85%,#201C2B);
+    background: linear-gradient(to right,#201C2B 85%,#201C2B)
+}
+.guild-channels .channel-text:hover {
+    background: -webkit-linear-gradient(left,#201C2B 85%,#201C2B);
+    background: linear-gradient(to right,#201C2B 85%,#201C2B)
+}
+.guilds-wrapper {
+    background: #17141F;
+}
+.theme-dark .chat form .typing {
+    background-color: #373048
+}
+.guild-header header {
+    background-color: #272038;
+}
+.theme-dark .chat .title-wrap {
+    border-bottom: 1px solid #272038;
+    background-color: #272038;
+}
+.theme-dark .channel-members {
+    background-color: #272038;
+}
