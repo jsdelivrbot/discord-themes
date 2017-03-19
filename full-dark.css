@@ -603,3 +603,48 @@ input {
     background-color: #7289DA;
     border: 2px solid #4A4F57;
 }
+.popout section {
+    background-color: #36393E;
+}
+#autocomplete-popout .row.selected,#autocomplete-popout .row:hover {
+    background: -webkit-linear-gradient(left,#434549,#434549);
+    background: linear-gradient(90deg,#434549,#434549)
+}
+#autocomplete-popout .row.selected a,#autocomplete-popout .row:hover a {
+    color: white
+}
+.upload-modal {
+    background-color: #434549;
+}
+.upload-modal .inner {
+    border: 0px none #7289DA;
+}
+.upload-modal .inner .file .icon.image {
+    border: 2px solid #434549;
+}
+.upload-modal .footer {
+    background-color: #4E5054;
+}
+.upload-modal .footer .button {
+    background-color: #4E5054;
+}
+.upload-modal .footer .button-primary {
+    color: #7289DA
+}
+.upload-modal .footer .button-primary:hover {
+    text-decoration: none;
+    opacity: .9
+}
+.region-select-modal {
+    background: #36393E;
+}
+.region-select-modal .region-select-modal-option {
+    border: 2px solid #36393E;
+    background-color: #36393E;
+}
+.scroller-wrap .bd-settings {
+    display: none;
+}
+.settings .settings-inner .settings-panel #bd-customcss-attach-controls .checkbox-group, #bd-pane .tab-bar.TOP {
+    display: none;
+}
