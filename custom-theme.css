@@ -1,0 +1,116 @@
+/*
+Thank you for using my theme!, If you have any issues contact archer#9341 on discord!
+
+THIS ONLY WORKS FOR DARK THEME
+
+/*
+Set the "background" to any color you want.
+↓↓↓!!MAKE SURE THEY ALL MATCH!!↓↓↓
+/*
+
+/*Emote picker BG*/
+/*MAIN BACKGROUND */
+.emoji-picker {
+    background-color: <hex or color>;
+    border: 1px solid <hex or color>;
+}
+.emoji-picker .sticky-header {
+    background: <hex or color>;
+}
+/*SEARCH BAR */
+.emoji-picker .search-bar {
+    background: <hex or color>;
+    color: <hex or color>;
+}
+
+
+/*Text box color */
+.theme-dark .inner-3if5cm {
+    background-color: <hex or color> (transparent for no background);
+}
+
+/* Account bar bg and text color */
+.container-iksrDt {
+    background: <hex or color>;
+    color: <hex or color>;
+}
+
+/* Channel List*/
+.container-RYiLUQ {
+    background-color: <hex or color>;
+}
+
+/*Server list*/
+.guilds-wrapper {
+    background: <hex or color>;
+}
+
+
+/*Member list
+MAKE SURE THEY ARE THE SAME
+*/
+.channel-members {
+	background-color: <hex or color>;
+}
+.theme-dark .channel-members {
+    background-color: <hex or color>;
+}
+
+/*Server name header*/
+.header-1tSljs {
+	background: <hex or color>;
+	color: <hex or color>;
+}
+
+/*Channel name*/
+.chat>.title-wrap {
+    background: <hex or color>;
+}
+
+/*Channel Topic BG*/
+.theme-dark .modal-3HOjGZ {
+    background-color: <hex or color>;
+}
+
+/*Chat Background*/
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background: <hex or color>;
+}
+.theme-dark .chat form {
+    background: <hex or color>;
+}
+
+/*User Popup*/
+/*Main Part*/
+.user-popout .body {
+    background: <hex or color>;
+}
+.user-popout .footer {
+    background: <hex or color>;
+    border-top: 1px solid <hex or color>;
+}
+/*Full popup*/
+/*Connections*/
+#user-profile-modal .scroller {
+    background: <hex or color>;
+}
+/*Icon/Name*/
+#user-profile-modal .header {
+    background-color: <hex or color>;
+    background-size: 0%;
+}
+#user-profile-modal .tab-bar-container {
+    background-color: <hex or color>;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    border-bottom: 1px solid <hex or color>;
+	
+}
+
+
+/*User Settings BG*/
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: <hex or color>;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: <hex or color>;
+}
