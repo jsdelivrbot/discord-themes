@@ -1,0 +1,41 @@
+div[class*="nameCollapsed-"],
+div[class*="nameDefault-"] {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.tooltip {
+    text-align: center;
+}
+div[class*="pictureInPictureVideo-"] {
+    width: 493px;
+    height: 277px;
+}
+.theme-dark .autocomplete-1TnWNR {
+    background-color: #36393E;
+    border: 1px solid #2F3136
+}
+.theme-dark .content-249Pr9 {
+    color: white
+}
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: #2A2C31
+}
+.message-group-blocked {
+    border: 0px solid #e3e5e7;
+    border-radius: 0px;
+    margin: 1px 3px 3px 3px;
+}
+.message-group-blocked .message-group-blocked-btn {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 5px 0;
+    color: #99aab5;
+    text-transform: capitalize;
+}
+.theme-dark .inner-3if5cm {
+    background-color: transparent;
+}
+.message-group .sink-interactions.clickable { 
+    display: none; 
+}
